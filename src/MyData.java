@@ -47,9 +47,6 @@ public class MyData implements I_Data<HashSet<Task>, LinkedHashSet<HashSet<Task>
                 int days = (((int)milliseconds) / (24 * 60 * 60 * 1000));
 
                 Integer idRead = (int) (long) (jsonObject.get("id"));
-                System.out.print(date1 + " " + date2 + " ");
-                System.out.println(days + " " + idRead);
-
                 
                 if(days < 4){
                     
