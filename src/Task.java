@@ -1,4 +1,6 @@
-
+/*
+ * Это главный класс задачи, от которого будут наследоваться LowPriority, MediumPriority и UpperPriory
+ */
 public class Task<T> {
     private Integer id;
     private String name;

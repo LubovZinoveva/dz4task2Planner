@@ -1,3 +1,6 @@
+/*
+ * Класс с самым низким приоритетом задачи
+ */
 public class LowPriority extends Task<String> {
     
         private Integer dayToDeadline = 3;

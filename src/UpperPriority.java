@@ -1,5 +1,7 @@
 
-
+/*
+ * Класс с высоким приоритетом задачи
+ */
 public class UpperPriority extends Task<String> {
     private Integer dayToDeadline = 3; 
 

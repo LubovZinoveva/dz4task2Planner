@@ -18,6 +18,9 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+/*
+ * Класс для работы с чтением/записью файлов
+ */
 public class MyData implements I_Data<HashSet<Task>, LinkedHashSet<HashSet<Task>>>  {
 
     Date date = new Date();

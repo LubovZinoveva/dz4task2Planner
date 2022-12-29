@@ -1,4 +1,6 @@
-
+/*
+ * Класс со средним приоритетом задачи
+ */
 
 public class MediumPriority extends Task<String> {
     private Integer dayToDeadline = 3;

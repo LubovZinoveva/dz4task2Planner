@@ -1,6 +1,9 @@
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
+/*
+ * Сам планнер
+ */
 public class Planner {
     public static void main(String[] args) {
         // создадим несколько задач и запишем в файл my_plans.json
